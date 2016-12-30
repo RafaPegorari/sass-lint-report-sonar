@@ -1,6 +1,6 @@
 {
   "name": "sass-lint-report-sonar",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "SASS-Lint Report to Sonar. Dependece Sonar Web Front-End Reporters 2.1.1",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
     "url": "https://github.com/RafaPegorari/sass-lint-report-sonar/issues"
   },
   "homepage": "https://github.com/RafaPegorari/sass-lint-report-sonar",
-  "Dependencies": {},
+  "Dependencies": {
+    "sonar-web-frontend-reporters": "^2.1.1"
+  },
   "main": "./sassReport.js",
-  "devDependencies": {
-    "sonar-web-frontend-reporters": "^2.1.1",
-  }
+  "devDependencies": {}
 }
