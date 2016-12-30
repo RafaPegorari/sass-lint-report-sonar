@@ -1,9 +1,22 @@
 {
   "name": "sass-lint-report-sonar",
   "version": "0.8.0",
-  "author": "Rafael Pegorari",
   "description": "SASS-Lint Report to Sonar. Dependece Sonar Web Front-End Reporters 2.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaPegorari/sass-lint-report-sonar"
+  },
+  "keywords": [
+    "Sass-lint",
+    "Sass-lint-Report",
+    "Sonar-Rerport"
+  ],
+  "author": "Rafael Pegorari <rafapegorari@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaPegorari/sass-lint-report-sonar/issues"
+  },
+  "homepage": "https://github.com/RafaPegorari/sass-lint-report-sonar",
   "Dependencies": {},
   "main": "./sassReport.js",
   "devDependencies": {
