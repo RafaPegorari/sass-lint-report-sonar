@@ -1,0 +1,12 @@
+{
+  "name": "sass-lint-report-sonar",
+  "version": "0.8.0",
+  "author": "Rafael Pegorari",
+  "description": "SASS-Lint Report to Sonar. Dependece Sonar Web Front-End Reporters 2.1.1",
+  "license": "MIT",
+  "Dependencies": {},
+  "main": "./sassReport.js",
+  "devDependencies": {
+    "sonar-web-frontend-reporters": "^2.1.1",
+  }
+}
