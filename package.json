@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/RafaPegorari/sass-lint-report-sonar",
   "dependencies": {
-    "sonar-web-frontend-reporters": "^2.1.1"
+    "sonar-web-frontend-reporters": "^2.1.1",
+    "through2": "^2.0.3"
   },
   "main": "./sassReport.js",
   "devDependencies": {}
