@@ -1,4 +1,4 @@
-var Model = require('sonar-web-frontend-reporters/reporterModel'),
+var Model = require('./reporterModel'),
     fs = require('fs'),
     map = require('map-stream'),
     inherits = require('util').inherits,
