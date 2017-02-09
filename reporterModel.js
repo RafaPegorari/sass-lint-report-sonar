@@ -61,7 +61,7 @@ ReporterModel.prototype.openFileIssues = function(file, commentsRegexp, spaceReg
     this.nbCloc += fileNbCloc;
     var fileNbViolations = [0, 0, 0, 0, 0];
 
-    var filePath = baseFilePath + file.path.substring(file.base.length),
+    var filePath = ((baseFilePath) ? baseFilePath : '') + file.path.substring(file.base.length),
     normalizedFilePath = (os.platform() === 'win32' || os.platform() === 'win64') ? filePath.replace(/\\/g, '\\\\') : filePath;
 
     fs.appendFileSync(this.reportFile, '\t{\n\t' +

@@ -1,6 +1,6 @@
 {
   "name": "sass-lint-report-sonar",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "SASS-Lint Report to Sonar. Based in Sonar Web Front-End Reporters 2.1.1",
   "repository": {
     "type": "git",
